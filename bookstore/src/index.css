@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway:wght@500&family=Urbanist&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Urbanist', sans-serif;
+}
+
+:root{
+    --primary-color:#fb995d;
+    --primary-color-bright:#fa7727;
+    --white-color:#fff;
+    --price-font:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text-primary{color: var(--primary-color);}
+/* h1,h2,h3,h4,h5,h6{
+    font-family: chivo Mono;
+} */
+
+h1{
+    font-size: 2.5rem;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.flex{display: flex;}
+
+.justify-center{justify-content: center;}
+
+.justify-between{justify-content: space-between;}
+
+.align-center{align-items: center;}
+
+.button-primary{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: var(--primary-color-bright);
+    text-decoration: none;
+    margin-top: 2rem;
+    color: #fff;
+    box-shadow: 2px 2px 5px #ddd;
+    transition: 0.2s ease-in;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+
+.button-primary:hover{
+    background-color: #222;
+}
